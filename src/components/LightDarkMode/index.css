@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.card-container {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+.heading {
+  font-family: 'Roboto';
+}
+.button {
+  font-family: 'Roboto';
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+}
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
